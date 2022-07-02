@@ -1,0 +1,28 @@
+footer {
+  background-color: #777676;
+  padding: 1%;
+  padding-top: 0%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: baseline;
+  }
+  
+  footer img{
+    display: inline-block;
+    position: relative;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 4%;
+  }
+  
+  footer h2{
+    display: inline-block;
+    width: 15%;
+    margin-left: 2%;
+  }
+  
+  footer #contatos{
+    margin-left: -15%;
+=  }
+  

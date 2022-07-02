@@ -1,0 +1,51 @@
+header {
+  margin-bottom: 2%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  height: 20%;
+  width: 90%;
+  padding: 1%;
+  border-bottom: solid 1px black;
+}
+
+header .logo{
+  display: inline-block;
+  width: 10%;
+}
+
+header h1{
+  display: inline-block;
+  width: 40%;
+  font-size: 130%;
+  position: relative;
+  margin-left: 2%;
+}
+
+header input{
+  width: 50%;
+  display: flex;
+  position: relative;
+  right: 25%;
+}
+
+header #icon-lupa{
+  width: 10%;
+  display: inline-block;
+  position: relative;
+  right: 100%;
+}
+
+header #perfil{
+  width: 3%;
+  display: inline-block;
+  position: relative;
+  right: 5%;
+  bottom:  %;
+  border: solid 1px pink;
+}
+
+header #perfil #icon-perfil{
+  width: 80%;
+  display: inline-block;
+}
