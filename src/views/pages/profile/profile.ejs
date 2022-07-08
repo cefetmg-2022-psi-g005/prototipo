@@ -1,0 +1,45 @@
+
+<%- include('../../partials/header.html'); %>
+
+
+<main>
+    <section id="company">
+      <div id="presentation">
+
+
+       
+
+      </div>
+        <h2 id="nameCompany"> CompanyName</h2>
+    </section>
+
+    
+
+    <section id="description">
+      <span class="linha">
+        <h3>Descrição</h3>
+
+      </span>
+
+      <% if (login.length > 0) { %>
+        <% for(var i = 0; i < login.length; i++) {%>
+        <p><%= login[i].id %></p>
+        <p><%= login[i].description %></p>
+
+        
+        <% } %>
+      <% } %>
+
+   
+    </section>
+    
+   
+
+   
+  </main>
+
+  <footer>
+    <%- include('../../partials/footer.html'); %>
+  </footer>
+
+

@@ -1,0 +1,11 @@
+{
+    "empresas" :[
+        {"id": 1,
+         "description": "Uma startup, termo da língua inglesa sem tradução oficial para a língua portuguesa, é uma empresa emergente que tem como objetivo principal desenvolver ou aprimorar um modelo de negócio"       
+        },
+
+        {"id": 2,
+            "description": "Uma startup de sucesso"       
+           }
+    ]
+}

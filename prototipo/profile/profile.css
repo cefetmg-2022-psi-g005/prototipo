@@ -1,0 +1,72 @@
+main{
+    margin-top: 2%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 5%;
+    padding-bottom: 2%;
+}
+
+section h3{
+    display: inline;
+    margin-right: 80%;
+}
+
+section .seta{                   
+    display: inline-block;
+    width: 5%;
+}
+
+section /*.seta*/ .baixo{
+    width: 5%;
+}
+
+section  .linha {
+    margin-right: 38%;
+    border-bottom: 1px solid black;
+}
+
+section table{
+    width: 90%;
+    height: 40%;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: #C4C4C4;
+}
+
+section table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#description p{
+    background: #C4C4C4;
+    width: 90%;
+    margin-right: 5%;
+}
+
+#company #presentation{
+    position: relative;
+    width: 50%;
+    height: 250px;
+    background: #C4C4C4;
+}
+
+#company #presentation img{}
+
+#company #presentation .seta{
+    padding: 1%;
+    position: relative;
+    top: 45%;
+}
+
+#company #presentation #esquerda{}
+
+#company #presentation #direita{
+    left: 85%;
+}
+
+#company #presentation h2{}
