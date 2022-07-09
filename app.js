@@ -4,7 +4,7 @@ var consign = require('consign');
 var app = express();
 app.set('view engine', 'ejs');
 app.set('views', './src/views');
-app.use('/static', express.static("src" + '/public'));
+app.use('/static', express.static('public/src/views/partials'));
 
 consign()
     .include('src/routes')
